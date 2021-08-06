@@ -1,0 +1,25 @@
+{
+  "name": "betterNote",
+  "plural": "betterNotes",
+  "base": "PersistedModel",
+  "mixins": {
+    "Test": { "message": "hello world" }
+  },
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "betterTitle": {
+      "type": "string"
+    },
+    "betterDesc": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "mydata.json"
+  },
+  "mysql": {
+    "host": "somehost.cloudclusters.net",
+    "port": 17347,
+    "database": "notesdb",
+    "username": "some_user",
+    "password": "some_password",
+    "name": "mysql",
+    "connector": "mysql"
+  }
+}
